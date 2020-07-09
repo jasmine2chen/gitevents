@@ -1,0 +1,84 @@
+---
+title: "534_project_notebook"
+author: "NL"
+date: "22/01/2020"
+output: html_document
+---
+
+## Jan 22, 2020 API Selection
+Reviewed different APIs, discussed with Jasmine and Chris and chose the Github Events API. 
+
+## Jan 23, 2020 Create R wrapper
+Took the online mini course "An Introduction to APIs" https://zapier.com/learn/apis/ and read "Best practices for API packages"  https://httr.r-lib.org/articles/api-packages.html. 
+
+Created R wrapper to access repository events https://developer.github.com/v3/activity/events/#list-repository-events. 
+
+
+## Jan 24, 2020 Create gitevents package
+Created the R package and added the file with R wrapper function to the /R package. 
+
+## Jan 25, 2020 Create DF function
+Added a function to create a DF to repo_events file using the parsed data that we get from the get_repo_events function. This is probably a more useable format. 
+
+## Jan 26, 2020 Create labbook stamp function
+Added a function to print out events for a repo for a given date. 
+
+## Jan 31, 2020 Documentation and testing
+Started unit testing using testthat() on my functions. Also updated DESCRIPTION, LICENSE, manual with help files for my functions, NAMESPACE. Created a skeleton README file. 
+
+## Feb 3, 2020 Complete package and Travis CI
+Integrated Jasmine's functions then implemented Travis CI. Also Chris added vignettes. 
+```{r }
+log <- get_repo_log('nganlyle', '534_project', '2020-02-03'); log
+```
+
+## Feb 4, 2020 Complete package and Travis CI
+Worked with Jasmine and Chris to plan the demo. Converting the log into html or Rmarkdown does not work well in Rmarkdown environment (freezing) so adjusted the function to return a simple dataframe. 
+
+```{r }
+log <- get_repo_log('nganlyle', '534_project', '2020-02-04'); log
+```
+
+## Feb 5, 2020 Documentation and demo
+Met with Chris and Jasmine to practice the presention. Added Code of Conduct and Contibuting documents to the package. 
+```{r }
+log <- get_repo_log('nganlyle', '534_project', '2020-02-05'); log
+
+```
+
+
+
+
+```{r }
+
+```
+
+
+
+
+```{r }
+
+```
+
+
+
+
+```{r }
+
+```
+
+
+
+
+```{r }
+
+```
+
+
+
+
+```{r }
+
+```
+
+

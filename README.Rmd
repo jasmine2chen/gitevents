@@ -1,3 +1,6 @@
+---
+output: github_document
+---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
@@ -56,6 +59,3 @@ get_repo_log('nganlyle', '534_project', '2020-02-02')
 * Please [report any issues or bugs](https://github.com/nganlyle/534_project/issues).
 * License: MIT
 * Get citation information for `gitevents` in R doing `citation(package = 'gitevents')`
-* * Please note that this project is released with a [Contributor Code of Conduct][coc]. By participating in this project you agree to abide by its terms.
-
-[coc]: https://github.com/nganlyle/534_project/blob/master/CODE_OF_CONDUCT.md

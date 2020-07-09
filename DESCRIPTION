@@ -1,0 +1,26 @@
+Package: gitevents
+Type: Package
+Title: Access to GitHub Events API
+Version: 0.1.0
+Authors@R: person("Ngan", "Lyle", email = "bbeline@gmail.com", role = c("aut", "cre"))
+		person("Jasmine", "Chen", email = "yn996180@dal.ca", role = c("aut", "cre"))
+		person("Chris", "Dugdale", email = "cdugdale@uwo.ca", role = c("aut","cre"))
+Maintainer: Ngan Lyle <bbeline@gmail.com>
+Description: Provides functions for read-only access to GitHub public events and repository events API. Information on the most recent 30 events are available. Functionality includes a function returning plots and lists providing basic information about public events and a function to create a "labbook stamp" showing events for a given repository and date.
+Imports:
+    httr,
+    jsonlite,
+    dplyr,
+    kableExtra,
+    ggplot2,
+    gridExtra,
+    knitr,
+    formattable
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.0.2
+Suggests:
+    testthat (>= 2.1.0),
+    rmarkdown
+VignetteBuilder: knitr

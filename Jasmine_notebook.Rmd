@@ -1,0 +1,40 @@
+---
+title: "Jasmine_notebook"
+author: "Jasmine Chen"
+date: '2020-01-22'
+output: pdf_document
+---
+## Jan 22, 2020 API Selection
+Reviewed different APIs from https://github.com/search?q=org%3Aropensci+api+wrapper, discussed with Ngan and Chris and chose the Github Events API. 
+
+## Jan 23, 2020 Create R wrapper
+Read https://zapier.com/learn/apis/ 
+
+
+## Jan 24, 2020 Create get_git_events function 
+Created get_git_events function to retrieve events data from github events api
+
+
+## Jan 25, 2020 Create create_events_df function 
+Created create_events_df function to put together event type, actor, repo, payload into a dataframe for github events
+
+## Jan 26, 2020 Create get_events_plots
+Created get_events_plots function to  generate plot for github event type and payload
+
+## Jan 28, 2020 Create get_events_lists
+Created get_events_lists function to generate a dataframe to show actor names and repo names side by side
+
+## Jan 30, 2020 Documentation and testing
+Unit testing using testthat() on four functions.
+
+## Feb 2, 2020 edit get_events_plots and testing
+edited get_events_plots and testing
+
+## Feb 3, 2020 edit get_events_lists and testing 
+edited get_events_lists and testing. Met with Ngan and Chris and discussed the current status of the project. Started work on Travis CI.
+
+## Feb 4, 2020
+Edited readme. Completed work on Travis CI. Finalized presention with Jasmine and Ngan. 
+
+## Feb 5, 2020
+Edited readme. Rehersed the presentation of the project. Finalized the project.

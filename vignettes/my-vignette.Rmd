@@ -1,0 +1,40 @@
+---
+title: "my-vignette"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{my-vignette}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+## Github Public Events:
+
+This subpackage collects information about the recent events of a public git hub repository. It is limited to the most recent thirty events within the last ninety days before the function call. This package has four functions: get_git_events, create_events_df, get_events_plots, and git_events_list.
+
+The get_git_events function provides lists of data for a public repository's events. 
+
+The create_events_df function creates a data frame from the output of get_git_events with the following columns: type, actor, payload. 
+
+The get_events_plots function creates two plots. The first plot is a barplot of event type. The second is a barplot of payload.
+
+
+## Repository Events:
+
+This subpackage has several functions for the collection of records of git events. There are three functions: get_repo_events, create_repo_df, and get_repo_log. The first two functions collect information from a public git hub repository, and then are called by the third to create a log of events.
+
+The function get_repo_events obtains the most recent thirty events from the past nintey days in the form of a list of lists from a public git hub repository.
+
+The function create_repo_df assembles the list of lists of git hub events into a data frame for further processing. 
+
+The get_repo_log function selects the event ID, event type, actor, message, and time of git events from the data frame created by the create_repo_df function. 
+
+
+## Examples 
+
+```{r}
+library(gitevents)
+get_events_plots()
+```
+
+```{r}
+create_repo_df('nganlyle', '534_project')
+```

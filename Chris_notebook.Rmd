@@ -1,0 +1,20 @@
+---
+title: "534_Project_Notebook"
+author: "CD"
+output: html_notebook
+---
+
+## Jan 22, 2020 API Selection.
+Reviewed several APIs, discussed them with Jasmine and Ngan, and selected the Github Events API.
+
+## Feb 2, 2020 First Vignette
+Wrote a vignette for Jasmine's subpackage. Discussed the functionality of both Ngan's and Jasmine's subpackages.
+
+## Feb 3, 2020 Second Vignette
+Wrote a vignette for Ngan's subpackage. Met with Ngan and Jasmine and discussed the current status of the project. Went over how we were going to present. Started work on Travis CI.
+
+## Feb 4, 2020
+Completed work on Travis CI. Finalized presention with Jasmine and Ngan. Worked on the readme.
+
+## Feb 5, 2020
+Worked on the readme. Rehersed the presentation of the project. Added my log. Finalized the project.
